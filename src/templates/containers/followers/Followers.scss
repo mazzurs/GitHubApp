@@ -1,0 +1,13 @@
+.ul-followers{
+  height:50px;
+  min-width: 150px;
+  overflow-y:scroll;
+  text-align: center;
+
+  li{
+    list-style-type: none;
+    a {color: #1b6d85; text-decoration:none; transition: 0.2s;}
+    a:hover {color: #31b0d5;}
+    a:active {color:#000;}
+  }
+}

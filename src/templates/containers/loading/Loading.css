@@ -1,0 +1,16 @@
+.loading {
+  overflow-y: hidden;
+  position: relative;
+  margin-top: 140px;
+  left: 0;
+  right: 0;
+  height: calc(100% - 140px);
+  z-index: 0;
+  background-color: white;
+  text-align: center; }
+  .loading img {
+    position: fixed;
+    top: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+    pointer-events: none; }

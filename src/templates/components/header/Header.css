@@ -1,0 +1,17 @@
+.App-logo {
+  height: 90px;
+  background-color: lightslategray;
+  user-select: none; }
+  .App-logo:hover {
+    animation: 0.9s ease-in-out 0s normal none 1 running trambling-animation; }
+
+.App-header {
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.9); }
+
+@keyframes trambling-animation {
+  0%, 50%, 100% {
+    transform: rotate(0deg); }
+  10%, 30% {
+    transform: rotate(-5deg); }
+  20%, 40% {
+    transform: rotate(5deg); } }

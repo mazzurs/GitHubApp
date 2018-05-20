@@ -1,0 +1,65 @@
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  pointer-events: none; }
+
+.users {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  background-color: white;
+  width: 100%;
+  margin-top: 140px;
+  justify-content: center; }
+
+.user {
+  display: flex;
+  height: 100px;
+  width: 350px;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  background: ghostwhite;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+  transition: all 0.3s ease; }
+  .user:hover {
+    background: azure;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+    z-index: 10; }
+
+.user-login-container {
+  color: black;
+  margin-left: 20px;
+  font-size: 1.2em; }
+  .user-login-container span {
+    color: lightseagreen; }
+
+.more-info {
+  color: black;
+  margin-left: 20px;
+  font-family: sans-serif;
+  font-weight: bold; }
+
+.github-link {
+  margin-left: 5px; }
+
+@media only screen and (max-width: 450px) {
+  .user {
+    display: flex;
+    height: 100px;
+    width: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    background: ghostwhite;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    transition: all 0.3s ease; }
+    .user:hover {
+      background: azure;
+      transform: scale(1);
+      transition: all 0.3s ease;
+      z-index: 10; } }
