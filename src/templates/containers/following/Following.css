@@ -3,17 +3,13 @@
   min-width: 150px;
   overflow-y: scroll;
   text-align: center; }
-
-.ul-following li {
-  list-style-type: none; }
-
-.ul-following li a {
-  color: #1b6d85;
-  text-decoration: none;
-  transition: 0.2s; }
-
-.ul-following li a:hover {
-  color: #31b0d5; }
-
-.ul-following li a:active {
-  color: #000; }
+  .ul-following li {
+    list-style-type: none; }
+    .ul-following li a {
+      color: #1b6d85;
+      text-decoration: none;
+      transition: 0.2s; }
+    .ul-following li a:hover {
+      color: #31b0d5; }
+    .ul-following li a:active {
+      color: #000; }
