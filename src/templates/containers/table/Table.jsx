@@ -8,7 +8,7 @@ class Table extends Component {
   render () {
     const {user, followers, following} = this.props
     return (
-      <table class="table">
+      <table className="table">
         <tbody>
         <tr>
           <td>Name</td>

@@ -8,7 +8,7 @@ export default class Followers extends Component {
 
         ? <ul className="ul-followers">
           {this.props.items.map(follower =>
-            <li className="li"><a href={follower.html_url} target="_blank">{follower.login}</a></li>
+            <li className="li" key={follower.id}><a href={follower.html_url} target="_blank">{follower.login}</a></li>
           )}
         </ul>
 
